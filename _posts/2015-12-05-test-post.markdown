@@ -2,5 +2,6 @@
 published: true
 title: Test Post
 layout: post
+categories: [cookies]
 ---
 Test Post 1
