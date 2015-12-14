@@ -15,7 +15,7 @@
     <p>Categories</p>
   </div>
 <div class="categories">
-   {% for category in site.categories %}
+   {% for category in site.categories.sort_by { |f| f.class == Array ? f.first : f } %}
     <div class="categories-title"><a class="sidebar-nav-item" href="/categories/{{ category | first }}">{{ category | first }}</a></div>   
     {% endfor %}
   </div>
