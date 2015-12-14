@@ -3,6 +3,7 @@ published: true
 title: Giant Ginger Cookies
 layout: post
 categories: [cookies, christmasCookies]
+rating: 5
 ---
 ### Servings
 25
