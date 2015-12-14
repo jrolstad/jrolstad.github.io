@@ -4,7 +4,7 @@ layout: default
 
 <h1>{{ page.category }} v1</h1>
 
-{% assign sorted_posts = (site.categories[page.category] | sort:"name") %}
+{% assign sorted_posts = site.categories[page.category] | sort:"title" %}
 {% for post in sorted_posts %}
    <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
      <h3 class="h2 post-title">{{ post.title }}</h3>
