@@ -6,10 +6,12 @@ layout: default
   <h1 class="post-title">{{ page.title }}</h1>
   
   <span class="post-date">{{ page.categories }}</span>
-  {% for category in page.categories%}
-    <span class="post-date">{{category}},&nbsp;</span>
-  {% endfor %}
-
+  <span class="post-date">
+    {% for category in page.categories%}
+      {{category}},&nbsp;
+    {% endfor %}
+  </span>
+  
   {{ content }}
 </div>
 
