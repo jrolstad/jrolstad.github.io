@@ -1,3 +1,10 @@
+---
+published: true
+title: Lamb Burgers
+layout: post
+categories: [lamb]
+rating: 5
+---
 ### Servings
 
 4
