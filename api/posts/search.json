@@ -4,7 +4,7 @@ layout: null
 {
   {% for post in site.posts %}
 
-    "post": {
+    {
       "title": "{{ post.title | xml_escape }}",
       "url": " {{ post.url | uri_escape }}",
       "category": "{{ post.categories }}",
