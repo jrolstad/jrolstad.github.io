@@ -1,8 +1,4 @@
 ---
-published: false
----
-
- ---
 published: true
 title: Lamb Burgers
 layout: post
