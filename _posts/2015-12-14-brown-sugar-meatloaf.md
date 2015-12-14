@@ -27,4 +27,4 @@ rating: 0
 4. Bake in preheated oven for 1 hour or until juices are clear.
 
 ### Source
-<a href="http://allrecipes.com/Recipe/Brown-Sugar-Meatloaf/Detail.aspx?prop31=9">http://allrecipes.com/Recipe/Brown-Sugar-Meatloaf/Detail.aspx?prop31=9</a>
+<a href="http://allrecipes.com/Recipe/Brown-Sugar-Meatloaf/Detail.aspx?prop31=9" target="new">http://allrecipes.com/Recipe/Brown-Sugar-Meatloaf/Detail.aspx?prop31=9</a>

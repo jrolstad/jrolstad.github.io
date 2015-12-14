@@ -1,0 +1,31 @@
+---
+published: true
+title: Baked Pork Chops I
+layout: post
+categories: [Pork]
+rating: 4
+---
+### Servings
+6
+
+### Ingredients
+-     6 pork chops
+-     1 teaspoon garlic powder
+-     1 teaspoon seasoning salt
+-     2 egg, beaten
+-     1/4 cup all-purpose flour
+-     2 cups Italian-style seasoned bread crumbs
+-     4 tablespoons olive oil
+-     1 (10.75 ounce) can condensed cream of mushroom soup
+-     1/2 cup milk
+-     1/3 cup white wine
+
+
+### Directions
+1. Preheat oven to 350 degrees F (175 degrees C).
+2. Rinse pork chops, pat dry, and season with garlic powder and seasoning salt to taste. Place the beaten eggs in a small bowl. Dredge the pork chops lightly in flour, dip in the egg, and coat liberally with bread crumbs.
+3. Heat the oil in a medium skillet over medium-high heat. Fry the pork chops 5 minutes per side, or until the breading appears well browned. Transfer the chops to a 9x13 inch baking dish, and cover with foil.
+4. Bake in the preheated oven for 1 hour. While baking, combine the cream of mushroom soup, milk and white wine in a medium bowl. After the pork chops have baked for an hour, cover them with the soup mixture. Replace foil, and bake for another 30 minutes.
+
+### Source
+<a href="http://allrecipes.com/Recipe/Baked-Pork-Chops-I/Detail.aspx?prop24=etaf" target="new">http://allrecipes.com/Recipe/Baked-Pork-Chops-I/Detail.aspx?prop24=etaf</a>
