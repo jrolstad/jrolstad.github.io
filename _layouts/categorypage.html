@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<h1>{{ page.category }} v1</h1>
+<h1>{{ page.category }} v2</h1>
 
 {% for post in (site.categories[page.category] | sort:"title") %}
    <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
