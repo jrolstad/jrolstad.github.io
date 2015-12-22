@@ -50,7 +50,7 @@ jQuery(function() {
           $search_results.append(appendString);
         });
       } else {
-        $search_results.html('<h3 class="h2 post-title">No Matching Results Found</h3>');
+        $search_results.html('<h2 class="h2 post-title">No Matching Results Found</h3>');
       }
     });
   }
