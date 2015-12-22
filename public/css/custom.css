@@ -18,11 +18,13 @@ input[type="text"].focus {
 }
 
 input[type="submit"] {
+  margin: 0;
+  width: 100%;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 20px;
+  appearance: none;
+  box-shadow: none;
   border-radius: none;
-  padding: 10px;
-  border: solid 1px #dcdcdc;
 }
 input[type="submit"].hover {
   border: solid 1px #707070;
