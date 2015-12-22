@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+{% capture posts %}
+  {% for post in site.posts %}
+    |{{ post.title }}#{{ post.url }}
+  {% endfor %}
+{% endcapture %}
+
+{% assign sortedposts = posts | split: '|' | sort %}
+
+{% for post in sortedposts %}
+    {% assign postitems = post | split: '#' %}
+    <a href={{ postitems[1] }}" class="post-link">
+      <h3 class="h2 post-title"> {{ postitems[0] }}</h3>
+    </a>
+{% endfor %}
