@@ -44,13 +44,13 @@ jQuery(function() {
           var item = loaded_data[result.ref];
 
           // Build a snippet of HTML for this result
-          var appendString = '<li><a href="' + item.url + '">' + item.title + '</a></li>';
+          var appendString = '<a href="' + item.url + '" class="post-link"><h3 class="h2 post-title">' + item.title + '</h3></a>';
 
           // Add it to the results
           $search_results.append(appendString);
         });
       } else {
-        $search_results.html('<li>No results found</li>');
+        $search_results.html('<h3 class="h2 post-title">No Matching Results Found</h3>');
       }
     });
   }
