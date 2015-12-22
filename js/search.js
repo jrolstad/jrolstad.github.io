@@ -30,9 +30,11 @@ jQuery(function() {
   });
   
   function comparePostsByTitle(a,b) {
-  if (a.title < b.title)
+     var itemA = loaded_data[a.ref];
+     var itemB = loaded_data[b.ref];
+  if (itemA.title < itemB.title)
     return -1;
-  if (a.title > b.title)
+  if (itemA.title > itemB.title)
     return 1;
   return 0;
   }
