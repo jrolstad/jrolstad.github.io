@@ -4,7 +4,6 @@ layout: default
 
 <h1>{{ page.category }}</h1>
 
-<h2>Sorted v2</h2>
 {% capture posts %}
   {% for post in site.posts %}
     |{{ post.title }}#{{ post.url }}
@@ -16,12 +15,5 @@ layout: default
     <a href={{ postitems[1] }}" class="post-link">
       <h3 class="h2 post-title"> {{ postitems[0] }}</h3>
     </a>
-{% endfor %}
-
-<h2>Unsorted</a>
-{% for post in site.categories[page.category] %}
-   <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
-     <h3 class="h2 post-title">{{ post.title }}</h3>
-   </a>
 {% endfor %}
 
