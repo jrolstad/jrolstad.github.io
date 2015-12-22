@@ -28,6 +28,14 @@ jQuery(function() {
       var results = window.idx.search(query); // Get lunr to perform a search
       display_search_results(results); // Hand the results off to be displayed
   });
+  
+  function comparePostsByTitle(a,b) {
+  if (a.title < b.title)
+    return -1;
+  if (a.title > b.title)
+    return 1;
+  return 0;
+  }
 
   function display_search_results(results) {
     var $search_results = $("#search_results");
@@ -38,7 +46,10 @@ jQuery(function() {
       // Are there any results?
       if (results.length) {
         $search_results.empty(); // Clear any old results
-
+        
+        // Sort the results by title
+        results.sort(comparePostsByTitle);
+        
         // Iterate over the results
         results.forEach(function(result) {
           var item = loaded_data[result.ref];
