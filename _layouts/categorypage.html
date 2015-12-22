@@ -5,7 +5,7 @@ layout: default
 <h1>{{ page.category }}</h1>
 
 {% capture posts %}
-  {% for post in site.posts %}
+  {% for post in site.categories[page.category] %}
     |{{ post.title }}#{{ post.url }}
   {% endfor %}
 {% endcapture %}
