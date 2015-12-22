@@ -3,12 +3,16 @@ layout: default
 ---
 
 <h1>{{ page.category }}</h1>
+
+{% assign categoryToList = page.category | downcase %}
 {% capture posts %}
-  {% for post in site.categories[page.category] %}
+  {% for post in site.categories[categoryToList] %}
     |{{ post.title }}#{{ post.url }}
   {% endfor %}
 {% endcapture %}
+
 {% assign sortedposts = posts | split: '|' | sort %}
+
 {% for post in sortedposts %}
     {% assign postitems = post | split: '#' %}
     <a href={{ postitems[1] }}" class="post-link">
