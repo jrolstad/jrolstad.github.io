@@ -1,6 +1,6 @@
 ---
 published: true
-title: "Instant" Pancake Mix
+title: Instant Pancake Mix
 layout: post
 categories: [breakfast]
 rating: 1
