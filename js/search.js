@@ -10,7 +10,7 @@ jQuery(function() {
   });
 
   // Download the data from the JSON file we generated
-  window.data = $.getJSON('{{ site.url }}/api/posts.json');
+  window.data = $.getJSON('rolstad-recipes/api/posts.json');
 
   // Wait for the data to load and add it to lunr
   window.data.then(function(loaded_data){
