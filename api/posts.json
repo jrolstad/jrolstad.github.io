@@ -7,7 +7,7 @@ layout: null
     {
       "title": "{{ post.title | xml_escape }}",
       "url": " {{site.url}}{{ post.url | uri_escape }}",
-      "path": " {{repository_url}}{{ post.path }}",
+      "path": " {{site.repository_url}}{{ post.path }}",
       "category": "{{ post.categories }}",
 	  "content": {{ post.content | xml_escape|jsonify}}
     }
