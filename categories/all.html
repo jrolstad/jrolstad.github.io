@@ -7,7 +7,7 @@ title: All_Recipes
 
 {% capture posts %}
   {% for post in site.posts %}
-    |{{ post.title }}#{{ post.url }}
+    |{{ post.title }}#{{ site.url }}/{{ post.url }}
   {% endfor %}
 {% endcapture %}
 
