@@ -4,6 +4,7 @@ markdown: kramdown
 url: https://jrolstad.github.io/rolstad-recipes
 post_content_base_url: https://github.com/jrolstad/rolstad-recipes/blob/gh-pages
 post_edit_base_url: https://github.com/jrolstad/rolstad-recipes/edit/gh-pages
+post_create_base_url: https://github.com/jrolstad/rolstad-recipes/new/gh-pages/_posts
 title: Rolstad Recipes
 tagline: Rolstad Family Recipes
 description: Recipe Book for the Rolstad Family
