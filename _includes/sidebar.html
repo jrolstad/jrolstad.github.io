@@ -1,7 +1,13 @@
 <script>
      function addPostOnGithub(){
           var link = document.getElementById('addPost');
-          link.href = "http://google.com";
+          var today = new Date();
+          
+          var dateString = today.getFullYear() +"-" + (today.getMonth()+1) + "-" + today.getDate()
+          var identifier = today.getTime();
+          var fileName = dateString + "-"+ identifier + ".md";
+          
+          link.href = "{site.post_create_base_url}}?" + fileName+ "&value=myvalue";
      }
 </script>
 
