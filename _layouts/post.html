@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
+  <h1 class="post-title">{{ page.title }} <a href="{{site.post_edit_base_url}}/{{post.path}}">Edit</a></h1>
   
   <span class="post-date">
     {% for category in page.categories%}
