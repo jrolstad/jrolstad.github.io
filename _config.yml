@@ -2,7 +2,8 @@ excerpt_separator: ""
 pygments: true
 markdown: kramdown
 url: https://jrolstad.github.io/rolstad-recipes
-repository_url: https://github.com/jrolstad/rolstad-recipes/blob/gh-pages
+post_content_base_url: https://github.com/jrolstad/rolstad-recipes/blob/gh-pages
+post_edit_base_url: https://github.com/jrolstad/rolstad-recipes/edit/gh-pages
 title: Rolstad Recipes
 tagline: Rolstad Family Recipes
 description: Recipe Book for the Rolstad Family
