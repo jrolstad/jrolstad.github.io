@@ -7,7 +7,7 @@
           var identifier = today.getTime();
           var fileName = dateString + "-"+ identifier + ".md";
           
-          var template = "---\npublished: true\ntitle: <recipe name>\nlayout: post\ncategories: [<list categories here>]\nrating: <rating 1-5>\n---"
+          var template = "---\npublished: true\ntitle: recipe name\nlayout: post\ncategories: [list categories here]\nrating: rating 1-5\n---"
           var encodedTemplate = encodeURIComponent(template);
           link.href = baseUrl + "?filename=" + fileName+ "&value=" + encodedTemplate;
      }
