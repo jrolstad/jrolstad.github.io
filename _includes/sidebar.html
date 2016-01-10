@@ -7,7 +7,9 @@
           var identifier = today.getTime();
           var fileName = dateString + "-"+ identifier + ".md";
           
-          link.href = baseUrl + "?filename=" + fileName+ "&value=myvalue";
+          var template = "---\npublished: true\ntitle: <recipe name>\nlayout: post\ncategories: [<list categories here>]\nrating: <rating 1-5>\n---"
+          
+          link.href = baseUrl + "?filename=" + fileName+ "&value=" + template;
      }
 </script>
 
