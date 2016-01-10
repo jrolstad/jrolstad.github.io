@@ -12,7 +12,7 @@
     <a class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}" href="{{site.url}}/">Home</a>
     <div class="categories-title"><a class="sidebar-nav-item" href="{{site.url}}/search.html">Search</a></div>
     <div class="categories-title"><a class="sidebar-nav-item" href="{{site.url}}/categories/all.html">All Recipes</a></div>
-    <div class="categories-title"><a class="sidebar-nav-item" href="{{site.post_create_base_url}}?filename=foo.md&value=myvalue" target="NEW" id="addPost">Add Recipe</a></div>
+    <div class="categories-title"><a class="sidebar-nav-item" href="#" onclick="addRecipe" target="NEW" id="addPost">Add Recipe</a></div>
 <div class="sidebar-item">
     <p>Categories</p>
   </div>
@@ -72,3 +72,10 @@
     </p>
   </div>
 </div>
+
+<script type="javascript>
+     function addPost(){
+          var link = document.getElementById('addPost');
+          link.href = "http://google.com";
+     }
+</script>
